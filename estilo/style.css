@@ -98,3 +98,18 @@ footer > div {
 .fone-whats {
     color: pink;
 }
+
+.link-fone {
+    color: lightgreen;
+    text-decoration: none;
+}
+
+.link-fone:hover {
+    color: yellow;
+    background-color: darkred;
+    text-decoration: underline;
+}
+
+.link-fone::after {
+    content: '\00A0\1F517';
+}
