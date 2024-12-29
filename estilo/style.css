@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Anton Regular';
+    src: url('../fontes/anton-regular.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-color: lightblue;
+}
+
+h1 {
+    background-image: linear-gradient(to left, red, green);
+    font-family: 'Anton Regular';
+    font-size: 40px;
+    color: yellow;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+main > div {
+    margin: 0 10px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
+    background-color: aqua;
+}
+
+h2 {
+    text-align: center;
+    padding: 3px;
+}
+
+ul {
+    margin-top: 15px;
+    text-align: center;
+}
+
+ul > a {
+    margin: 0 5px;
+    padding: 5px 15px;
+    font-weight: bold;
+    color: darkblue;
+    text-decoration: none;
+}
+
+ul > a:hover {
+    margin: 0 5px;
+    padding: 5px 15px;
+    font-weight: bold;
+    background-color: darkred;
+    color: yellow;
+    text-decoration: underline;
+    border-radius: 10px;
+}
+
+footer > div {
+    background-color: black;
+    color: yellow;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
+    line-height: 25px;
+}
+
+.fone {
+    color: lightgreen;
+}
+
+.rua-nro {
+    color: rgb(0, 185, 255);
+}
+
+.bairro {
+    color: rgb(255, 100, 0);
+}
+
+.cid-est {
+    color: lightcoral;
+}
+
+.cep {
+    color: chartreuse;
+}
+
+.fone-whats {
+    color: pink;
+}
