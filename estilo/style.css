@@ -32,6 +32,7 @@ main > div {
     border: 2px solid black;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
     background-color: aqua;
+    border-radius: 10px;
 }
 
 h2 {
@@ -61,6 +62,7 @@ ul > a:hover {
     color: yellow;
     text-decoration: underline;
     border-radius: 10px;
+    transition-duration: .5s;
 }
 
 footer > div {
