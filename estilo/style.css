@@ -45,15 +45,15 @@ h2 {
 ul {
     margin-top: 15px;
     text-align: center;
-    line-height: 30px;
+    line-height: 33px;
 }
 
 ul > a {
     margin: 0 5px;
     padding: 5px 15px;
-    font-size: large;
+    font-size: 19px;
     font-weight: bold;
-    color: darkblue;
+    color: rgb(102, 0, 102);
     text-decoration: none;
 }
 
