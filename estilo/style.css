@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Anton Regular';
-    src: url('../fontes/anton-regular.ttf') format('truetype');
+    font-family: 'Copy Duck';
+    src: url('../fontes/copy-duck.otf') format('opentype');
 }
 
 * {
@@ -15,15 +15,17 @@ body {
 }
 
 h1 {
-    background-image: linear-gradient(to left, red, green);
-    font-family: 'Anton Regular';
+    background-image: linear-gradient(to left, rgb(255, 0, 255), rgb(37, 0, 37));
+    font-family: 'Copy Duck';
     font-size: 40px;
-    color: yellow;
+    color: rgb(228, 228, 2);
     text-align: center;
     text-transform: uppercase;
     margin-top: 20px;
     margin-bottom: 15px;
     border: 2px solid black;
+    padding: 13px;
+    padding-bottom: 9px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
 }
 
@@ -66,7 +68,7 @@ ul > a:hover {
 }
 
 footer > div {
-    background-color: black;
+    background-color: rgb(31, 31, 31);
     color: yellow;
     margin-top: 15px;
     margin-bottom: 20px;
@@ -114,4 +116,8 @@ footer > div {
 
 .link-fone::after {
     content: '\00A0\1F517';
+}
+
+.copyright {
+    background-color: black;
 }
