@@ -51,6 +51,7 @@ ul {
 ul > a {
     margin: 0 5px;
     padding: 5px 15px;
+    font-size: large;
     font-weight: bold;
     color: darkblue;
     text-decoration: none;
@@ -60,7 +61,7 @@ ul > a:hover {
     margin: 0 5px;
     padding: 5px 15px;
     font-weight: bold;
-    background-color: darkred;
+    background-image: linear-gradient(to left, rgb(255, 0, 255), rgb(37, 0, 37));
     color: yellow;
     text-decoration: underline;
     border-radius: 10px;
