@@ -16,6 +16,19 @@
             margin: 23px 8px;
         }
 
+        #logo {
+            height: 339px;
+            width: 339px;
+            border-radius: 10px;
+            display: block;
+            margin: auto;
+            box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.65);
+        }
+
+        div {
+            box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.65);
+        }
+
         .div1 {
             background-color: rgb(236, 199, 143);
             border: 2px solid purple;
@@ -26,19 +39,11 @@
             border-radius: 15px;
         }
 
-        #logo {
-            height: 339px;
-            width: 339px;
-            border-radius: 10px;
-            display: block;
-            margin: auto;
-        }
-
         .div2 {
             background-color: rgb(240, 240, 125);
             border: 2px solid purple;
-            padding: 22px;
             margin: 0 12px;
+            padding: 22px 0;
             margin-bottom: 18px;
             border-radius: 15px;
         }
@@ -48,8 +53,28 @@
             border: 2px solid purple;
             margin: 0 12px;
             padding: 22px 0;
-            padding-bottom: 10px;
-            margin-bottom: 22px;
+            padding-bottom: 4px;
+            margin-bottom: 18px;
+            border-radius: 15px;
+        }
+
+        .div4 {
+            background-color: rgb(240, 240, 125);
+            border: 2px solid purple;
+            margin: 0 12px;
+            padding: 22px 0;
+            padding-bottom: 5px;
+            margin-bottom: 18px;
+            border-radius: 15px;
+        }
+
+        .div5 {
+            background-color: rgb(236, 199, 143);
+            border: 2px solid purple;
+            margin: 0 12px;
+            padding: 22px 0;
+            padding-bottom: 4px;
+            margin-bottom: 18px;
             border-radius: 15px;
         }
 
@@ -59,6 +84,11 @@
             color: purple;
             margin-bottom: 8px;
             text-decoration: underline;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.65);
+        }
+
+        .nossos-produtos, .nossas-lojas {
+            margin-bottom: 18px;
         }
 
         p {
@@ -88,6 +118,49 @@
             border-radius: 10px;
             display: block;
             margin: auto;
+            box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.65);
+        }
+
+        .faca-seu-pedido {
+            margin-bottom: 20px;
+        }
+
+        .cidade, .cassino {
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.65);
+        }
+
+        .link-pedido-cid, .link-pedido-cass {
+            padding: 6px 8px;
+            text-shadow: 2px 2px 6px rgba(0, 128, 0, 0.65);
+            text-decoration: none;
+        }
+
+        .link-pedido-cid:hover, .link-pedido-cass:hover {
+            color: white;
+            background-color: blueviolet;
+            padding: 6px 8px;
+            text-shadow: 2px 2px 6px white;
+            text-decoration: underline;
+        }
+
+        a {
+            color: darkred;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        .foto-loja {
+            margin-bottom: 15px;
+        }
+
+        .loja {
+            color: blue;
+            font-style: normal;
+            text-shadow: 2px 2px 6px rgba(18, 18, 90, 0.65);       
         }
 
         footer {
@@ -96,6 +169,7 @@
             text-align: center;
             border: 2px solid black;
             border-radius: 15px;
+            box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.65);
         }
 
         footer > p {
@@ -123,8 +197,9 @@
             <p class="vlr1">Qualidade do produto.</p>
             <p class="vlr2">Qualidade do atendimento.</p>
         </div>
+
         <div class="div3">
-            <h1>NOSSOS PRODUTOS</h1>
+            <h1 class="nossos-produtos">NOSSOS PRODUTOS</h1>
             <hr>
             <img src="imagens/acai-330ml.jpg" alt="Açaí 330ml">
             <p>Açaí 330ml</p>
@@ -158,6 +233,26 @@
             <hr>
             <img src="imagens/sorvetes.jpg" alt="Sorvetes">
             <p>Sorvetes</p>
+        </div>
+
+        <div class="div4">
+            <h1 class="faca-seu-pedido">FAÇA SEU PEDIDO</h1>
+            <p>Para finalizar seu pedido na loja da <span class="cidade">CIDADE</span>,<a class="link-pedido-cid" href="https://app.anota.ai/m/B3G4kWQHw" target="_blank">CLIQUE AQUI.</a></p>
+            <p>Para finalizar seu pedido na loja do <span class="cassino">CASSINO</span>,<a class="link-pedido-cass" href="https://app.anota.ai/m/Tp6e5tQ7w" target="_blank">CLIQUE AQUI.</a></p>
+        </div>
+
+        <div class="div5">
+            <h1 class="nossas-lojas">NOSSAS LOJAS</h1>
+            <hr>
+            <img class="foto-loja" src="imagens/frente-cidade.jpg" alt="Frente Cidade">
+            <p class="loja">LOJA DA CIDADE</p>
+            <p>Rua Visconde de Mauá, nº761, Bairro Lagoa, Rio Grande-RS.</p>
+            <p>Fone: <a href="tel:+5553999046499">(53) 9 9904-6499</a></p>
+            <hr>
+            <img class="foto-loja" src="imagens/frente-cassino.jpg" alt="Frente Cassino">
+            <p class="loja">LOJA DO CASSINO</p>
+            <p>Avenida Beira-Mar, nº590, Cassino, Rio Grande-RS.</p>
+            <p>Fone: <a href="tel:+5553984363069">(53) 9 8436-3069</a></p>
         </div>
     </main>
     <footer>
